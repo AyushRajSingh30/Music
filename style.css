@@ -1,0 +1,126 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+nav{
+    background-color: #246c6e;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+
+nav logo img{
+    width: 2rem;
+    height: auto;
+}
+nav logo{
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhaina+2:wght@400;700&family=Noto+Sans+KR:wght@300&family=Noto+Sans+TC:wght@500;700&family=Roboto:wght@400;500&display=swap');
+    width: 8rem;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large
+}
+
+ul{
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhaina+2:wght@400;700&family=Noto+Sans+KR:wght@300&family=Noto+Sans+TC:wght@500;700&family=Roboto:wght@400;500&display=swap');
+display: flex;
+width: 22rem;
+    height: auto;
+}
+ul li{
+list-style: none;
+
+margin: 0px 2rem;
+}
+ul li a{
+color: white;
+text-decoration: none;
+}
+.container{
+    /* background-color: yellow;
+    /* background-size: cover; */
+   height: 115vh;
+    background-image: url('./images/background.png'); 
+    /* background-size: cover; */
+display: grid;
+justify-content: center;
+
+}
+.container .Library{
+   
+    height: auto;
+    margin-top: 2rem;
+    line-height: 5rem;
+    width: 30rem;
+    /* background-color: rgba(0, 0, 255, 0.5); */
+    
+}
+.container .Library li{
+    width: 30rem;
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center; 
+border: 2px solid black;
+    border-radius: 20%;
+    
+}
+.container .Library li img{
+    width: 4rem;
+    height: auto;
+   
+}
+
+
+footer{
+   
+    background-color: rgba(36, 108, 110, 0.5);;
+        z-index: 1;
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    display: grid;
+    justify-content: center;
+    bottom: 0px;
+}
+
+
+footer div{
+    display: flix;
+    justify-content: center;
+    align-items: center;
+}
+
+footer input{
+width: 70vw;
+margin: top 1px; 
+/* display: flex; */
+
+}
+/* footer div{
+    width: 4rem;;
+} */
+.last-button img{
+    width: 4rem;
+    height: auto;
+    
+}
+
+
+#songname {
+    font-size: 4rem;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
